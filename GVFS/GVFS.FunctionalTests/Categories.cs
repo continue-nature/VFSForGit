@@ -20,7 +20,10 @@
         {
             // Tests that require #360 (detecting/handling new empty folders)
             public const string NeedsNewFolderCreateNotification = "NeedsNewFolderCreateNotification";
+        }
 
+        public static class NonWindowsTODO
+        {
             // Tests that require the Status Cache to be built
             public const string NeedsStatusCache = "NeedsStatusCache";
 
